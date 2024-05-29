@@ -1,9 +1,9 @@
    
 function validarLogin() {
 
-    var condicao = false;
-    var loginCerto = logUser1;
-    var senhaCerta = PasUser1;
+    
+    var loginCerto = "jorge";
+    var senhaCerta = 123;
     var login = document.getElementById('login').value;
     var senha = document.getElementById('senha').value;
 
@@ -15,8 +15,7 @@ function validarLogin() {
     }else if(login == loginCerto && senha == senhaCerta){
         alert('Login realizado com sucesso!')
         window.location.href = "bem-vindo.html";
-        
-        return true;
+            
     }else if(login == loginCerto && senha != senhaCerta){
         alert('Senha incorreta. Tente novamente.')
     }else{
