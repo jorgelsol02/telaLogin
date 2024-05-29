@@ -1,0 +1,22 @@
+body{
+    background-color:aquamarine
+    }
+    
+.form-login{
+     margin: 15px;
+     position: relative;
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 24px;
+}
+    
+#btnlogin, #btncadastro{
+    background-color: red;
+    position: relative;
+    font-size: 14px;
+
+}
+
+#btnlogin:hover, #btncadastro:hover{
+    background-color: brown;
+}
